@@ -1,0 +1,819 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;family=Cairo:wght@400;600;700;800&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;font-family:'Cairo','Plus Jakarta Sans',sans-serif;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={"darkMode":"class","theme":{"extend":{"colors":{"on-tertiary-fixed-variant":"#005236","error":"#ffb4ab","surface-container-lowest":"#0a0e18","surface-container-highest":"#313540","secondary-fixed":"#d8e2ff","on-tertiary-container":"#00452e","tertiary":"#4edea3","inverse-primary":"#00687a","outline-variant":"#3d494c","surface-variant":"#313540","surface-card":"#111827","on-secondary-fixed":"#001a42","secondary-container":"#0566d9","glow-gold":"rgba(245, 158, 11, 0.3)","border-subtle":"rgba(255, 255, 255, 0.08)","secondary-fixed-dim":"#adc6ff","primary-fixed-dim":"#4cd7f6","outline":"#869397","achievement-gold":"#F59E0B","inverse-surface":"#dfe2f1","surface":"#0f131d","secondary":"#adc6ff","on-primary-fixed":"#001f26","on-error":"#690005","primary-container":"#06b6d4","surface-tint":"#4cd7f6","on-primary":"#003640","on-secondary":"#002e6a","surface-dim":"#0f131d","on-background":"#dfe2f1","tertiary-container":"#1bbd85","surface-elevated":"#1E293B","on-secondary-fixed-variant":"#004395","background":"#0f131d","surface-container-low":"#171b26","surface-container":"#1c1f2a","electric-teal":"#14B8A6","surface-container-high":"#262a35","tertiary-fixed-dim":"#4edea3","surface-bright":"#353944","on-tertiary":"#003824","inverse-on-surface":"#2c303b","glow-cyan":"rgba(6, 182, 212, 0.35)","on-secondary-container":"#e6ecff","on-tertiary-fixed":"#002113","on-surface-variant":"#bcc9cd","on-error-container":"#ffdad6","on-surface":"#dfe2f1","error-container":"#93000a","on-primary-container":"#00424f","on-primary-fixed-variant":"#004e5c","tertiary-fixed":"#6ffbbe","primary-fixed":"#acedff","primary":"#4cd7f6"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-lg":"1.5rem","gutter":"1.5rem","space-xs":"0.25rem","space-xl":"2.5rem","space-md":"1rem","gutter-mobile":"1rem","margin-mobile":"1.25rem","margin":"3rem","space-sm":"0.5rem"},"fontFamily":{"headline-md":["Space Grotesk"],"body-sm":["Plus Jakarta Sans"],"headline-lg":["Space Grotesk"],"label-lg":["Space Grotesk"],"label-sm":["Space Grotesk"],"body-md":["Plus Jakarta Sans"],"headline-sm":["Space Grotesk"],"label-md":["Space Grotesk"],"headline-lg-mobile":["Space Grotesk"],"headline-xl":["Space Grotesk"],"headline-xl-mobile":["Space Grotesk"],"body-lg":["Plus Jakarta Sans"]},"fontSize":{"headline-md":["24px",{"lineHeight":"32px","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"22px","fontWeight":"400"}],"headline-lg":["36px",{"lineHeight":"46px","letterSpacing":"-0.015em","fontWeight":"700"}],"label-lg":["15px",{"lineHeight":"20px","letterSpacing":"0.02em","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"16px","letterSpacing":"0.06em","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"26px","fontWeight":"400"}],"headline-sm":["20px",{"lineHeight":"28px","fontWeight":"600"}],"label-md":["13px",{"lineHeight":"18px","letterSpacing":"0.04em","fontWeight":"500"}],"headline-lg-mobile":["26px",{"lineHeight":"34px","fontWeight":"700"}],"headline-xl":["48px",{"lineHeight":"58px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-xl-mobile":["32px",{"lineHeight":"40px","letterSpacing":"-0.01em","fontWeight":"700"}],"body-lg":["18px",{"lineHeight":"28px","fontWeight":"400"}]}}}}</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary selection:text-on-primary"><header class="fixed top-0 w-full z-50 bg-surface/85 backdrop-blur-xl shadow-[0_4px_30px_rgba(0,0,0,0.5)]"><div class="h-20 max-w-7xl mx-auto px-margin-mobile md:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><a class="flex items-center gap-3 group" data-path="home" href="#"><div class="w-11 h-11 rounded-xl bg-surface-container flex items-center justify-center shadow-[0_0_15px_rgba(6,182,212,0.25)] group-hover:shadow-[0_0_25px_rgba(6,182,212,0.45)] transition-all duration-300"><span class="material-symbols-outlined text-primary text-2xl">terminal</span></div><div class="flex flex-col text-right"><div class="flex items-center gap-2"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight font-bold group-hover:text-primary transition-colors">أسرة رؤية</span><span class="font-label-sm text-label-sm text-primary uppercase font-mono tracking-wider">ROYA</span></div><span class="font-label-sm text-label-sm text-on-surface-variant">حاسبات ومعلومات • جامعة الصالحية</span></div></a></div><nav class="hidden xl:flex items-center gap-1 bg-surface-container-low/70 p-1.5 rounded-xl" data-active-classes="bg-primary-container text-on-primary-container font-semibold rounded-lg"><a aria-current="page" class="px-3.5 py-2 transition-all duration-200 bg-primary-container text-on-primary-container font-semibold rounded-lg" data-path="home" href="#">الرئيسية</a><a class="px-3.5 py-2 font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all duration-200" data-path="about-us" href="#">عن الأسرة</a><a class="px-3.5 py-2 font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all duration-200" data-path="members" href="#">الأعضاء واللجان</a><a class="px-3.5 py-2 font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all duration-200" data-path="achievements" href="#">الإنجازات</a><a class="px-3.5 py-2 font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all duration-200" data-path="gallery" href="#">معرض الصور</a><a class="px-3.5 py-2 font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all duration-200" data-path="community" href="#">مجتمع واتساب</a></nav><div class="flex items-center gap-space-sm md:gap-space-md"><button class="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container text-on-surface-variant hover:text-on-surface hover:bg-surface-container-high transition-all text-xs font-mono font-medium" title="تبديل اللغة / Switch Language"><span>AR</span><span class="text-outline">/</span><span>EN</span></button><a class="inline-flex items-center justify-center px-4 py-2 rounded-lg bg-primary text-on-primary font-label-md text-label-md font-bold tracking-wide shadow-[0_0_20px_rgba(6,182,212,0.4)] hover:shadow-[0_0_30px_rgba(6,182,212,0.65)] hover:scale-[1.02] active:scale-[0.98] transition-all duration-200" data-path="join-us" href="#">انضم إلينا</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center shadow-[0_0_12px_rgba(76,215,246,0.3)]"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full relative overflow-hidden">
+<!-- Dynamic Ambient Glows & Cyber Grid Background -->
+<div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[700px] bg-gradient-to-b from-primary/10 via-secondary-container/5 to-transparent blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-[1400px] -right-48 w-96 h-96 bg-primary/10 rounded-full blur-[120px] pointer-events-none -z-10"></div>
+<div class="absolute top-[2800px] -left-48 w-96 h-96 bg-tertiary/10 rounded-full blur-[120px] pointer-events-none -z-10"></div>
+<!-- ==================== HERO SECTION ==================== -->
+<section class="relative w-full max-w-7xl mx-auto px-margin-mobile md:px-margin pt-8 md:pt-16 pb-16 flex flex-col items-center text-center">
+<!-- Institutional Pill Badge -->
+<div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-surface-container-high/80 backdrop-blur-md shadow-sm mb-6 hover:bg-surface-container-highest transition-colors">
+<span class="w-2 h-2 rounded-full bg-primary animate-ping"></span>
+<span class="font-label-sm text-label-sm text-primary tracking-wide">كلية الحاسبات والمعلومات • جامعة الصالحية الجديدة</span>
+<span class="text-outline text-xs">|</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">FCI • SGU</span>
+</div>
+<!-- Main Title with Cyber Visual Hierarchy -->
+<div class="flex flex-col items-center mb-6">
+<div class="relative inline-block">
+<h1 class="font-headline-xl text-headline-xl md:text-[64px] md:leading-[1.15] font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-primary via-primary-fixed to-tertiary drop-shadow-[0_0_35px_rgba(6,182,212,0.4)]">
+          أسرة رؤية
+        </h1>
+<span class="block font-label-md text-label-md md:text-base font-mono uppercase tracking-[0.35em] text-secondary mt-1">
+          OSRA ROYA TECH COMMUNITY
+        </span>
+</div>
+</div>
+<!-- Hero Paragraph extracted from website copy -->
+<p class="max-w-3xl font-body-lg text-body-lg text-on-surface-variant mb-10 leading-relaxed text-balance">
+      مساحة أخوية طلابية بتجمع طلاب الكلية على هدف واحد: <span class="text-on-surface font-semibold">تعلّم حقيقي</span>، <span class="text-primary font-semibold">تجارب فعلية</span>، و<span class="text-tertiary font-semibold">إنجازات نفتخر بيها مع بعض</span> في قلب وادي التكنولوجيا.
+    </p>
+<!-- CTAs with glow and glass styling -->
+<div class="flex flex-wrap items-center justify-center gap-4 mb-16">
+<a class="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-primary text-on-primary font-label-lg text-label-lg font-bold shadow-[0_0_25px_rgba(6,182,212,0.4)] hover:shadow-[0_0_35px_rgba(6,182,212,0.65)] hover:-translate-y-0.5 transition-all" href="#members-section">
+<span class="material-symbols-outlined text-xl">group</span>
+<span>اتعرف على الأعضاء</span>
+</a>
+<a class="inline-flex items-center gap-2 px-7 py-3.5 rounded-xl bg-surface-container-high/90 text-primary hover:text-on-surface hover:bg-surface-bright transition-all font-label-lg text-label-lg font-bold shadow-md" href="#whatsapp-section">
+<span class="material-symbols-outlined text-xl">forum</span>
+<span>انضم لمجتمعنا (WhatsApp)</span>
+</a>
+</div>
+<!-- Live Telemetry / Achievement Metrics Counters -->
+<div class="w-full max-w-4xl grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
+<!-- Metric 1 -->
+<div class="p-6 rounded-2xl bg-surface-container-low/75 backdrop-blur-xl flex flex-col items-center justify-center shadow-lg relative group hover:-translate-y-1 transition-all">
+<div class="w-10 h-10 rounded-xl bg-primary/10 flex items-center justify-center text-primary mb-3 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">groups_3</span>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="font-headline-xl text-headline-xl font-bold text-on-surface">15+</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant mt-1">أعضاء الأسرة الفاعلين</span>
+<span class="font-label-sm text-label-sm text-outline font-mono">Family Members</span>
+</div>
+<!-- Metric 2 (Gold Accent Champion) -->
+<div class="p-6 rounded-2xl bg-surface-container-low/75 backdrop-blur-xl flex flex-col items-center justify-center shadow-lg relative group hover:-translate-y-1 transition-all">
+<div class="w-10 h-10 rounded-xl bg-achievement-gold/15 flex items-center justify-center text-achievement-gold mb-3 shadow-[0_0_15px_rgba(245,158,11,0.25)] group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">trophy</span>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="font-headline-xl text-headline-xl font-bold text-achievement-gold">المركز 1</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface mt-1 font-semibold">بطل مسابقة ECPC على الجامعة</span>
+<span class="font-label-sm text-label-sm text-achievement-gold/80 font-mono">ECPC 1st Place Champion</span>
+</div>
+<!-- Metric 3 -->
+<div class="p-6 rounded-2xl bg-surface-container-low/75 backdrop-blur-xl flex flex-col items-center justify-center shadow-lg relative group hover:-translate-y-1 transition-all">
+<div class="w-10 h-10 rounded-xl bg-tertiary/10 flex items-center justify-center text-tertiary mb-3 group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-2xl">rocket_launch</span>
+</div>
+<div class="flex items-baseline gap-1">
+<span class="font-headline-xl text-headline-xl font-bold text-on-surface">7+</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface-variant mt-1">إيفنتات تقنية كبرى حضرناها</span>
+<span class="font-label-sm text-label-sm text-outline font-mono">Tech Events Attended</span>
+</div>
+</div>
+</section>
+<!-- ==================== WHO WE ARE SECTION ==================== -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile md:px-margin py-16">
+<div class="rounded-3xl bg-surface-container-low/60 backdrop-blur-xl p-8 md:p-12 shadow-xl relative overflow-hidden">
+<div class="absolute top-0 right-0 w-80 h-80 bg-primary/5 rounded-full blur-3xl pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<!-- Text Column -->
+<div class="lg:col-span-7 flex flex-col items-start text-right">
+<div class="inline-flex items-center gap-2 px-3.5 py-1 rounded-lg bg-surface-container-high text-primary font-label-sm text-label-sm uppercase font-mono mb-4">
+<span class="material-symbols-outlined text-base">domain</span>
+<span>مين إحنا • WHO WE ARE</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface mb-4 leading-tight">
+            جزء من كلية الحاسبات والمعلومات <br/>
+<span class="text-primary">بجامعة الصالحية الجديدة</span>
+</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed mb-6">
+            أسرة رؤية مش مجرد مجموعة، دي بيئة متكاملة بندعم فيها بعض من أول يوم في الكلية — من التوجيه الأكاديمي، للمسابقات البرمجية التنافسية، وحضور أهم وأكبر الإيفنتات التقنية في مصر. هدفنا إعداد كوادر برمجية وتقنية تنافس في سوق العمل المحلي والدولي.
+          </p>
+<div class="flex flex-wrap items-center gap-4 text-xs font-mono text-on-surface-variant">
+<span class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container">
+<span class="material-symbols-outlined text-tertiary text-sm">terminal</span>
+              هندسة البرمجيات والذكاء الاصطناعي
+            </span>
+<span class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container">
+<span class="material-symbols-outlined text-secondary text-sm">security</span>
+              الأمن السيبراني والشبكات
+            </span>
+<span class="flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-surface-container">
+<span class="material-symbols-outlined text-achievement-gold text-sm">code_blocks</span>
+              البرمجة التنافسية (ECPC)
+            </span>
+</div>
+</div>
+<!-- Ecosystem Hierarchy Cards Column -->
+<div class="lg:col-span-5 flex flex-col gap-3.5">
+<!-- Card 1: Family -->
+<div class="p-4 rounded-2xl bg-surface-container/90 flex items-center justify-between gap-4 shadow-sm hover:bg-surface-container-high transition-all">
+<div class="flex items-center gap-3.5">
+<div class="w-12 h-12 rounded-xl bg-primary-container text-on-primary-container flex items-center justify-center shadow-[0_0_15px_rgba(6,182,212,0.3)]">
+<span class="material-symbols-outlined text-2xl">diversity_3</span>
+</div>
+<div class="flex flex-col text-right">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">أسرة رؤية</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Osra Roya • النشاط الطلابي المركزي</span>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-highest text-primary font-label-sm text-label-sm font-mono">الأسرة الطلابية</span>
+</div>
+<!-- Card 2: Faculty -->
+<div class="p-4 rounded-2xl bg-surface-container/90 flex items-center justify-between gap-4 shadow-sm hover:bg-surface-container-high transition-all">
+<div class="flex items-center gap-3.5">
+<div class="w-12 h-12 rounded-xl bg-secondary-container text-on-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl">school</span>
+</div>
+<div class="flex flex-col text-right">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">كلية الحاسبات والمعلومات</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Faculty of Computers &amp; Information</span>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-highest text-secondary font-label-sm text-label-sm font-mono">الكلية الحاضنة</span>
+</div>
+<!-- Card 3: University -->
+<div class="p-4 rounded-2xl bg-surface-container/90 flex items-center justify-between gap-4 shadow-sm hover:bg-surface-container-high transition-all">
+<div class="flex items-center gap-3.5">
+<div class="w-12 h-12 rounded-xl bg-tertiary-container text-on-tertiary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-2xl">account_balance</span>
+</div>
+<div class="flex flex-col text-right">
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">جامعة الصالحية الجديدة</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">El Saleheya El Gadida University (SGU)</span>
+</div>
+</div>
+<span class="px-2.5 py-1 rounded-md bg-surface-container-highest text-tertiary font-label-sm text-label-sm font-mono">الصرح الجامعي</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== PIONEER / ADVISOR SPOTLIGHT ==================== -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile md:px-margin py-12">
+<div class="flex flex-col items-center text-center mb-8">
+<span class="font-label-sm text-label-sm uppercase font-mono text-primary tracking-widest mb-1">قيادة وإلهام • LEADERSHIP &amp; MENTORSHIP</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface">رائد وموجه أسرة رؤية</h2>
+</div>
+<!-- Dr. Muhammad Soliman Bento Spotlight Card -->
+<div class="rounded-3xl bg-surface-container/80 backdrop-blur-xl p-6 sm:p-10 lg:p-12 shadow-2xl relative overflow-hidden">
+<!-- Glow rim decoration -->
+<div class="absolute -top-32 -left-32 w-80 h-80 bg-primary/15 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+<!-- Mentor Avatar & Cyber Badge Frame -->
+<div class="lg:col-span-4 flex flex-col items-center text-center">
+<div class="relative w-44 h-44 sm:w-56 sm:h-56 rounded-full p-1.5 bg-gradient-to-tr from-primary via-secondary to-tertiary shadow-[0_0_35px_rgba(6,182,212,0.35)] mb-5">
+<div class="w-full h-full rounded-full overflow-hidden bg-surface-container-lowest">
+<img class="w-full h-full object-cover" data-alt="Professional portrait of Dr. Muhammad Soliman PhD, an esteemed computer science scholar and cloud security solutions architect smiling warmly wearing a tailored navy suit with deep tech studio background lighting in teal and royal blue tones." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCf-Nj6anju48OJM5RwXT4-hBuwjBPg29ITt9_MgFqswUIliecSW2aFCmCK1Ii1y89jVsLyVOtmauRX_J41fS-wAIy4q05jWHP40XOCIG9RKlCU6O4_PbXfQyib6esk5yj1EY0Q2ZJrGBGzxnnOURUW_IVBzMbZmBmIuTeK5JV00OfQkoQIFIC1XOa7mgCAStTy792MFJc_aI_45K8XeKa2TthquAZYORi8XTEho5TDXigDRRRWzxXw9g"/>
+</div>
+<div class="absolute bottom-1 right-2 px-3 py-1 rounded-full bg-surface-container-lowest/90 backdrop-blur-md shadow-md flex items-center gap-1.5 text-xs font-mono font-bold text-achievement-gold">
+<span>🥷</span>
+<span>NinjaD</span>
+</div>
+</div>
+<span class="px-4 py-1.5 rounded-full bg-primary/10 text-primary font-label-md text-label-md font-bold mb-2">رائد ومستشار أسرة رؤية</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-extrabold tracking-tight">Muhammad Soliman, PhD</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Senior Solutions Architect &amp; Academic Lecturer</span>
+<!-- Official Social Mentorship Links -->
+<div class="flex items-center gap-3 mt-5">
+<a class="px-4 py-2 rounded-xl bg-surface-container-high hover:bg-secondary-container text-on-surface hover:text-on-secondary-container font-label-sm text-label-sm font-semibold flex items-center gap-2 transition-all shadow-sm" href="https://www.linkedin.com/in/lupate" rel="noopener noreferrer" target="_blank">
+<span class="font-mono text-xs font-bold">in</span>
+<span>LinkedIn</span>
+</a>
+<a class="px-4 py-2 rounded-xl bg-surface-container-high hover:bg-primary-container text-on-surface hover:text-on-primary-container font-label-sm text-label-sm font-semibold flex items-center gap-2 transition-all shadow-sm" href="https://adplist.org/mentors/muhammad-lupate" rel="noopener noreferrer" target="_blank">
+<span class="font-mono text-xs font-bold">A</span>
+<span>ADPList Mentorship</span>
+</a>
+</div>
+</div>
+<!-- Mentor Bio & Honors Narrative -->
+<div class="lg:col-span-8 flex flex-col gap-4 text-right">
+<div class="p-4 rounded-xl bg-surface-container-low/70">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              د. محمد هو أستاذ جامعة ومهندس حلول رائد في المجال الرقمي، بخبرة تزيد عن <span class="text-primary font-bold">+16 عاماً</span> في هندسة البرمجيات والأمن السيبراني والحوسبة السحابية. في academia، يعلّم الجيل الجديد من قادة التقنية من خلال تدريس الأمن السيبراني وتطوير تطبيقات الهاتف المحمول، كما ي mentor المهنيين والمهندسين في أكثر من خمس دول عبر منصة ADPList الدولية.
+            </p>
+</div>
+<div class="p-4 rounded-xl bg-surface-container-low/70">
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+              تعتمد أبحاثه وأساسه الأكاديمي على رسالة دكتوراه متخصصة تركز على <span class="text-on-surface font-semibold">Explainable AI والأمن السحابي</span>، إلى جانب حيازته شهادات احترافية رفيعة المستوى من Google وAmazon وLinux Foundation وOracle. في دوره المؤسسي، يقود التحول الرقمي في مجالات الـ FinTech، البنوك، التجارة الإلكترونية، والحوكمة في مصر والمنطقة.
+            </p>
+</div>
+<!-- Red Hat Champion Achievement Pill -->
+<div class="p-4 rounded-xl bg-achievement-gold/10 flex items-start gap-3.5">
+<div class="w-10 h-10 rounded-lg bg-achievement-gold/20 flex items-center justify-center text-achievement-gold shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-2xl">award_star</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2 flex-wrap">
+<span class="font-label-lg text-label-lg font-bold text-achievement-gold">Red Hat Champion 2025</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Red Hat Future of Banks</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-relaxed">
+                حائز على اللقب لمهارته المتقدمة في هندسة السحابة المؤسسية باستخدام Red Hat OpenShift، وتكريس وقته لربط الأكاديميا بالممارسة الصناعية المتقدمة ونقل الخبرات المعرفية لطلاب أسرة رؤية.
+              </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== MEMBERS GRID SECTION ==================== -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile md:px-margin py-16" id="members-section">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10 text-right">
+<div>
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-surface-container-high text-primary font-label-sm text-label-sm uppercase font-mono mb-2">
+<span>THE TECH TALENTS</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface">أعضاء أسرة رؤية</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">
+        باقي الأعضاء بيتضافوا تباعاً — المكان محجوز ومتاح للكوادر المتميزة في حاسبات ومعلومات الصالحية.
+      </p>
+</div>
+<!-- Team Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-5">
+<!-- Member: Sabry Mohamed Alaa (Family President) -->
+<div class="rounded-2xl bg-surface-card/90 p-5 shadow-lg flex flex-col justify-between hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(6,182,212,0.2)] transition-all relative overflow-hidden group">
+<div class="flex items-start justify-between gap-2 mb-4">
+<div class="px-2.5 py-1 rounded-full bg-achievement-gold/15 text-achievement-gold font-label-sm text-label-sm font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">stars</span>
+<span>رئيس الأسرة • President</span>
+</div>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-mono text-[10px] font-bold uppercase">Guru</span>
+</div>
+<div class="flex flex-col items-center text-center my-3">
+<div class="w-20 h-20 rounded-full p-1 bg-gradient-to-tr from-achievement-gold to-primary mb-3">
+<div class="w-full h-full rounded-full bg-surface-container flex items-center justify-center text-primary font-headline-sm text-headline-sm font-bold">
+              SM
+            </div>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">Sabry Mohamed Alaa</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">رئيس أسرة رؤية</span>
+</div>
+<div class="pt-3 flex items-center justify-center text-xs font-mono text-outline">
+<span>قيادة الأنشطة • تمثيل الكلية</span>
+</div>
+</div>
+<!-- Member: Ziad Ashour (Vice President) -->
+<div class="rounded-2xl bg-surface-card/90 p-5 shadow-lg flex flex-col justify-between hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(6,182,212,0.2)] transition-all relative overflow-hidden group">
+<div class="flex items-start justify-between gap-2 mb-4">
+<div class="px-2.5 py-1 rounded-full bg-primary/15 text-primary font-label-sm text-label-sm font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-sm">verified_user</span>
+<span>نائب رئيس الأسرة • VP</span>
+</div>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-mono text-[10px] font-bold uppercase">Captain</span>
+</div>
+<div class="flex flex-col items-center text-center my-3">
+<div class="w-20 h-20 rounded-full p-1 bg-gradient-to-tr from-primary to-secondary mb-3">
+<div class="w-full h-full rounded-full bg-surface-container flex items-center justify-center text-secondary font-headline-sm text-headline-sm font-bold">
+              ZA
+            </div>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">Ziad Ashour</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">نائب رئيس أسرة رؤية</span>
+</div>
+<div class="pt-3 flex items-center justify-center text-xs font-mono text-outline">
+<span>التنظيم الإداري • العمليات</span>
+</div>
+</div>
+<!-- Member: Ahmed Mohamed -->
+<div class="rounded-2xl bg-surface-card/90 p-5 shadow-lg flex flex-col justify-between hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(6,182,212,0.2)] transition-all relative overflow-hidden group">
+<div class="flex items-start justify-between gap-2 mb-4">
+<span class="px-2 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">عضو في الأسرة</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-mono text-[10px] font-bold uppercase">Ace</span>
+</div>
+<div class="flex flex-col items-center text-center my-3">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center text-primary font-headline-sm text-headline-sm font-bold mb-3">
+            AM
+          </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">Ahmed Mohamed</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Family Member</span>
+</div>
+<div class="pt-3 flex items-center justify-center text-xs font-mono text-tertiary">
+<span>Software Engineering</span>
+</div>
+</div>
+<!-- Member: Ibrahim Ibn Adham -->
+<div class="rounded-2xl bg-surface-card/90 p-5 shadow-lg flex flex-col justify-between hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(6,182,212,0.2)] transition-all relative overflow-hidden group">
+<div class="flex items-start justify-between gap-2 mb-4">
+<span class="px-2 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">عضو في الأسرة</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-mono text-[10px] font-bold uppercase">Pioneer</span>
+</div>
+<div class="flex flex-col items-center text-center my-3">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center text-secondary font-headline-sm text-headline-sm font-bold mb-3">
+            IA
+          </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">Ibrahim Ibn Adham</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Family Member</span>
+</div>
+<div class="pt-3 flex items-center justify-center text-xs font-mono text-outline">
+<span>Competitive Programming</span>
+</div>
+</div>
+<!-- Member: Mohamed Adly -->
+<div class="rounded-2xl bg-surface-card/90 p-5 shadow-lg flex flex-col justify-between hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(6,182,212,0.2)] transition-all relative overflow-hidden group">
+<div class="flex items-start justify-between gap-2 mb-4">
+<span class="px-2 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">عضو في الأسرة</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-mono text-[10px] font-bold uppercase">Dynamo</span>
+</div>
+<div class="flex flex-col items-center text-center my-3">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center text-primary font-headline-sm text-headline-sm font-bold mb-3">
+            MA
+          </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">Mohamed Adly</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Family Member</span>
+</div>
+<div class="pt-3 flex items-center justify-center text-xs font-mono text-outline">
+<span>Web &amp; Cloud Systems</span>
+</div>
+</div>
+<!-- Member: Esraa Eid Saad -->
+<div class="rounded-2xl bg-surface-card/90 p-5 shadow-lg flex flex-col justify-between hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(6,182,212,0.2)] transition-all relative overflow-hidden group">
+<div class="flex items-start justify-between gap-2 mb-4">
+<span class="px-2 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">عضو في الأسرة</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-mono text-[10px] font-bold uppercase">Visionary</span>
+</div>
+<div class="flex flex-col items-center text-center my-3">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center text-tertiary font-headline-sm text-headline-sm font-bold mb-3">
+            EE
+          </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">Esraa Eid Saad</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Family Member</span>
+</div>
+<div class="pt-3 flex items-center justify-center text-xs font-mono text-outline">
+<span>AI &amp; Data Analysis</span>
+</div>
+</div>
+<!-- Member: Hanin Khalid Mahmoud -->
+<div class="rounded-2xl bg-surface-card/90 p-5 shadow-lg flex flex-col justify-between hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(6,182,212,0.2)] transition-all relative overflow-hidden group">
+<div class="flex items-start justify-between gap-2 mb-4">
+<span class="px-2 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">عضو في الأسرة</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-mono text-[10px] font-bold uppercase">Strategist</span>
+</div>
+<div class="flex flex-col items-center text-center my-3">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center text-secondary font-headline-sm text-headline-sm font-bold mb-3">
+            HK
+          </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">Hanin Khalid Mahmoud</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Family Member</span>
+</div>
+<div class="pt-3 flex items-center justify-center text-xs font-mono text-outline">
+<span>Academic &amp; Planning</span>
+</div>
+</div>
+<!-- Member: Hanaa Tarek Elsayed -->
+<div class="rounded-2xl bg-surface-card/90 p-5 shadow-lg flex flex-col justify-between hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(6,182,212,0.2)] transition-all relative overflow-hidden group">
+<div class="flex items-start justify-between gap-2 mb-4">
+<span class="px-2 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">عضو في الأسرة</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-mono text-[10px] font-bold uppercase">Maverick</span>
+</div>
+<div class="flex flex-col items-center text-center my-3">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center text-primary font-headline-sm text-headline-sm font-bold mb-3">
+            HT
+          </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">Hanaa Tarek Elsayed</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Family Member</span>
+</div>
+<div class="pt-3 flex items-center justify-center text-xs font-mono text-outline">
+<span>Tech Innovation</span>
+</div>
+</div>
+<!-- Member: Menna Allah Shady Samir -->
+<div class="rounded-2xl bg-surface-card/90 p-5 shadow-lg flex flex-col justify-between hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(6,182,212,0.2)] transition-all relative overflow-hidden group">
+<div class="flex items-start justify-between gap-2 mb-4">
+<span class="px-2 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">عضو في الأسرة</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-mono text-[10px] font-bold uppercase">Guardian</span>
+</div>
+<div class="flex flex-col items-center text-center my-3">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center text-tertiary font-headline-sm text-headline-sm font-bold mb-3">
+            MA
+          </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">Menna Allah Shady</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Family Member</span>
+</div>
+<div class="pt-3 flex items-center justify-center text-xs font-mono text-outline">
+<span>Community Engagement</span>
+</div>
+</div>
+<!-- Member: Yasser Mahmoud -->
+<div class="rounded-2xl bg-surface-card/90 p-5 shadow-lg flex flex-col justify-between hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(6,182,212,0.2)] transition-all relative overflow-hidden group">
+<div class="flex items-start justify-between gap-2 mb-4">
+<span class="px-2 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">عضو في الأسرة</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-mono text-[10px] font-bold uppercase">Connector</span>
+</div>
+<div class="flex flex-col items-center text-center my-3">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center text-primary font-headline-sm text-headline-sm font-bold mb-3">
+            YM
+          </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">Yasser Mahmoud</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Family Member</span>
+</div>
+<div class="pt-3 flex items-center justify-center text-xs font-mono text-outline">
+<span>Public Relations</span>
+</div>
+</div>
+<!-- Member: Tharwat Mahmoud -->
+<div class="rounded-2xl bg-surface-card/90 p-5 shadow-lg flex flex-col justify-between hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(6,182,212,0.2)] transition-all relative overflow-hidden group">
+<div class="flex items-start justify-between gap-2 mb-4">
+<span class="px-2 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">عضو في الأسرة</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-mono text-[10px] font-bold uppercase">Rockstar</span>
+</div>
+<div class="flex flex-col items-center text-center my-3">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center text-secondary font-headline-sm text-headline-sm font-bold mb-3">
+            TM
+          </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">Tharwat Mahmoud</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Family Member</span>
+</div>
+<div class="pt-3 flex items-center justify-center text-xs font-mono text-outline">
+<span>Technical Tracks</span>
+</div>
+</div>
+<!-- Member: Abdelrahman Sabry -->
+<div class="rounded-2xl bg-surface-card/90 p-5 shadow-lg flex flex-col justify-between hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(6,182,212,0.2)] transition-all relative overflow-hidden group">
+<div class="flex items-start justify-between gap-2 mb-4">
+<span class="px-2 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">عضو في الأسرة</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-mono text-[10px] font-bold uppercase">Troubleshooter</span>
+</div>
+<div class="flex flex-col items-center text-center my-3">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center text-tertiary font-headline-sm text-headline-sm font-bold mb-3">
+            AS
+          </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">Abdelrahman Sabry</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Family Member</span>
+</div>
+<div class="pt-3 flex items-center justify-center text-xs font-mono text-outline">
+<span>Problem Solving</span>
+</div>
+</div>
+<!-- Member: Faris Nabil Mokhtar (Photo placeholder from original) -->
+<div class="rounded-2xl bg-surface-card/90 p-5 shadow-lg flex flex-col justify-between hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(6,182,212,0.2)] transition-all relative overflow-hidden group">
+<div class="flex items-start justify-between gap-2 mb-4">
+<span class="px-2 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">عضو في الأسرة</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-mono text-[10px] font-bold uppercase">Challenger</span>
+</div>
+<div class="flex flex-col items-center text-center my-3">
+<div class="w-20 h-20 rounded-full overflow-hidden p-0.5 bg-gradient-to-tr from-primary to-tertiary mb-3">
+<img class="w-full h-full object-cover rounded-full" data-alt="University computer science student Faris Nabil Mokhtar standing in a campus laboratory wearing casual red polo shirt smiling with computer monitors in background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBgHcZzPlUgrralSisX2pfXuo99YVqzwM-sJ8vH8aqoQJQyH439wnl4EMtZjC19yghAHnlhqxjHLT_49pkTfw31Yaas8yQXfiHiURKPFyKKYxfJASt7D9L37ysujIZ2wL4yQ4FO3vWTReMU7K5mbHfY4MTX_2qFeAXRuwq0-0c8a947URWQ7YC8M46quEmm5QttoHU8h15u9sk7bsGawK-GQgVjL9QMEgGHGZiV8IlP-kfOliO9OZKKBA"/>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">Faris Nabil Mokhtar</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Family Member</span>
+</div>
+<div class="pt-3 flex items-center justify-center text-xs font-mono text-primary">
+<span>Cyber &amp; Automation</span>
+</div>
+</div>
+<!-- Member: Wael Mohamed Abdellatif -->
+<div class="rounded-2xl bg-surface-card/90 p-5 shadow-lg flex flex-col justify-between hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(6,182,212,0.2)] transition-all relative overflow-hidden group">
+<div class="flex items-start justify-between gap-2 mb-4">
+<span class="px-2 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">عضو في الأسرة</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-mono text-[10px] font-bold uppercase">Codebreaker</span>
+</div>
+<div class="flex flex-col items-center text-center my-3">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center text-primary font-headline-sm text-headline-sm font-bold mb-3">
+            WA
+          </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">Wael M. Abdellatif</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Family Member</span>
+</div>
+<div class="pt-3 flex items-center justify-center text-xs font-mono text-outline">
+<span>Algorithms &amp; Data</span>
+</div>
+</div>
+<!-- Member: Khaled Mohamed -->
+<div class="rounded-2xl bg-surface-card/90 p-5 shadow-lg flex flex-col justify-between hover:-translate-y-1.5 hover:shadow-[0_12px_30px_rgba(6,182,212,0.2)] transition-all relative overflow-hidden group">
+<div class="flex items-start justify-between gap-2 mb-4">
+<span class="px-2 py-1 rounded-md bg-surface-container text-on-surface-variant font-label-sm text-label-sm">عضو في الأسرة</span>
+<span class="px-2 py-0.5 rounded bg-surface-container-highest text-outline font-mono text-[10px] font-bold uppercase">Scholar</span>
+</div>
+<div class="flex flex-col items-center text-center my-3">
+<div class="w-20 h-20 rounded-full bg-surface-container flex items-center justify-center text-secondary font-headline-sm text-headline-sm font-bold mb-3">
+            KM
+          </div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold group-hover:text-primary transition-colors">Khaled Mohamed</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">Family Member</span>
+</div>
+<div class="pt-3 flex items-center justify-center text-xs font-mono text-outline">
+<span>Mobile Dev &amp; Flutter</span>
+</div>
+</div>
+<!-- Reserved Empty Slot Card (Inspired from original design) -->
+<div class="rounded-2xl bg-surface-container-low/40 p-5 flex flex-col items-center justify-center text-center hover:bg-surface-container-low transition-all relative group cursor-pointer min-h-[220px]">
+<div class="w-16 h-16 rounded-full bg-surface-container flex items-center justify-center text-outline group-hover:text-primary group-hover:scale-110 transition-all mb-3">
+<span class="material-symbols-outlined text-3xl">add</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold mb-1">عضو جديد قريباً</span>
+<span class="font-body-sm text-body-sm text-outline font-mono">مكانك محجوز معنا</span>
+<a class="mt-4 px-3 py-1.5 rounded-lg bg-surface-container-highest text-xs font-mono font-bold text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors" href="#whatsapp-section">
+          قدّم الآن
+        </a>
+</div>
+</div>
+</section>
+<!-- ==================== PHOTO GALLERY SHOWCASE ==================== -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile md:px-margin py-16">
+<div class="flex flex-col items-center text-center mb-10">
+<span class="font-label-sm text-label-sm uppercase font-mono text-primary tracking-widest mb-1">لحظات لا تُنسى • MEMORIES &amp; MOMENTS</span>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface">معرض الصور والفعاليات</h2>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl mt-2">
+        توثيق رحلاتنا الميدانية، المعسكرات التدريبية وحضورنا المؤتمرات التقنية في القاهرة والمحافظات.
+      </p>
+</div>
+<!-- Gallery Bento Mosaic -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-5">
+<!-- Big Showcase Banner Card (Matches the prominent banner in inspiration) -->
+<div class="md:col-span-8 rounded-3xl bg-surface-card p-6 md:p-8 flex flex-col justify-between shadow-xl relative overflow-hidden group min-h-[320px]">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-card via-surface-card/60 to-transparent z-10"></div>
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700" data-alt="Panoramic modern tech summit in Egypt with students of Osra Roya attending keynote stages, glowing neon banners of Google Developers, n8n, CognitioX, and NTI job fair with futuristic stadium lighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB2sX1y2U5kax5sKQ1w8vHlwf-0oZJhYaVCIJrFhvM6wydYze4D8mdwC8eEmf5DTRIyN_t7_T9g0CJuwT3IP0zS3yj-uBbulHH_0Pz0bspjGiOxbSk2sxJ3NvROKUNOBnoX-6eiixOntbdiOxNUsBo7G0UKO9JWmFQYa9FZfreR3afNf_W-SQnwmUGUtIsTAxlk16HzSbYMaFh3LWh9b6SbsfWHbaIbrIywlzsNlI4-q4Vsm80ydDoZIw')"></div>
+<div class="relative z-20 flex items-center justify-between">
+<div class="px-3.5 py-1.5 rounded-xl bg-surface-container-lowest/80 backdrop-blur-md text-primary font-mono text-xs font-bold flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span>TECH CONFERENCES &amp; MEETS</span>
+</div>
+<span class="text-xs font-mono text-on-surface-variant px-2.5 py-1 rounded bg-surface/70">2024 - 2025</span>
+</div>
+<div class="relative z-20 mt-32 text-right">
+<h3 class="font-headline-md text-headline-md text-on-surface font-extrabold mb-2">
+            حضور طلاب أسرة رؤية في أبرز قمم التقنية
+          </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-xl">
+            Google Build with AI • CognitioX • n8n Egypt • معسكرات الهاكاثون البرمجية الوطنية
+          </p>
+</div>
+</div>
+<!-- Side Gallery Item 1 -->
+<div class="md:col-span-4 rounded-3xl bg-surface-card p-6 flex flex-col justify-end shadow-xl relative overflow-hidden group min-h-[280px]">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-card via-transparent to-transparent z-10"></div>
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700" data-alt="College students in computer science laboratory at El Saleheya El Gadida University collaborating excitedly over laptop code screens and algorithm boards." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBqiyvkwenxBJhvIeg7G-1m-axudlfnVqhXXJ3wDLW6HrqE51dj0D9QY6EeNNPu7E3VrX7wLYwtoy19Zj8X-AEmw88pXlEHkYYZqHnKCPAanvrwCFIKVQqgggDdTpfEo2b8zwUdrPSlOIKVzyNIvp2T07XWy_YRYfVJCnsd3prNOk4GT-d5h2o837AemiJzGBldu44ZxwtiHr8tMzEDPj9Pxo8qinopTIbQ-mHg0ry0TN07uexGzKxe1g')"></div>
+<div class="relative z-20 text-right">
+<span class="px-2.5 py-1 rounded-md bg-achievement-gold/20 text-achievement-gold font-mono text-xs font-bold inline-block mb-2">ECPC Training Camp</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">معسكرات التدريب البرمجي</h4>
+</div>
+</div>
+<!-- Side Gallery Item 2 -->
+<div class="md:col-span-4 rounded-3xl bg-surface-card p-6 flex flex-col justify-end shadow-xl relative overflow-hidden group min-h-[240px]">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-card via-transparent to-transparent z-10"></div>
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700" data-alt="Group of passionate computer science students celebrating with medals and trophies at a collegiate programming contest ceremony in Cairo Egypt." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC66ApAbFyeGGY-wTWVLhlWQw8TDGFcZVlNgYP4pLGMjF5uaGS5lZABritHIUBiS-H7At8uiksCOjU_ojVzYKQJpDAhTXEzZV_0XH2md-wc5dZAwuMuDoWL1ZNT0QNSPweibXQJiCfqppP4cPsVZRVtrtLrcy4O4ZLW1P3MCPCZEIBGacV9MBfXOR1zY4HP2DjAR-dae5N4RK-m8gl7EuAWewWHXfZ7yIUBU__SEUSAu1_yxi94E9VfhA')"></div>
+<div class="relative z-20 text-right">
+<span class="px-2.5 py-1 rounded-md bg-tertiary/20 text-tertiary font-mono text-xs font-bold inline-block mb-2">Honors &amp; Awards</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">تكريم أبطال الأسرة</h4>
+</div>
+</div>
+<!-- Side Gallery Item 3 -->
+<div class="md:col-span-8 rounded-3xl bg-surface-card p-6 flex flex-col justify-between shadow-xl relative overflow-hidden group min-h-[240px]">
+<div class="absolute inset-0 bg-gradient-to-t from-surface-card via-transparent to-transparent z-10"></div>
+<div class="absolute inset-0 bg-cover bg-center group-hover:scale-105 transition-transform duration-700" data-alt="Auditorium lecture hall at SGU University with students listening intently to an advanced cybersecurity seminar presented by Dr Muhammad Soliman." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBmK_j12ofTIuI3EyGCze1DYj8iqCYNk01Y_J8TXMVFAzrqla5Uj0Nsi0-c_-Nns-9V_F_G7SW0VDRudKndfF2_tGghgJQNGIUD5MtEbGQOHMTQhbmLOE5QFwIaJdipi0WLFxqc8p638QZWJQUy9B7hFCtLlDLlxuI37os0MZjn_MXaWfkbIwcS_vg9q78fHCh9cZ-mfC9kQKBAL7kV_yYma_7fGf7Hku3jTaBlMsUYDG5xKk8pUxXaTw')"></div>
+<div class="relative z-20 flex justify-between items-center">
+<span class="px-2.5 py-1 rounded-md bg-secondary/20 text-secondary font-mono text-xs font-bold">Workshops &amp; Lectures</span>
+</div>
+<div class="relative z-20 text-right">
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">ندوات الأمن السيبراني والذكاء الاصطناعي</h4>
+<span class="font-body-sm text-body-sm text-on-surface-variant font-mono">قاعات كلية الحاسبات والمعلومات SGU</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ==================== ACHIEVEMENTS & JOURNEY SECTION ==================== -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile md:px-margin py-16">
+<div class="flex flex-col items-start text-right mb-10">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-surface-container-high text-primary font-label-sm text-label-sm uppercase font-mono mb-2">
+<span class="material-symbols-outlined text-sm">timeline</span>
+<span>المشوار • THE JOURNEY</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface">إنجازات وأنشطة الأسرة</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">سجل زاخر بالمشاركات الفعالة والإنجازات المشرفة على مستوى الجمهورية.</p>
+</div>
+<!-- Achievements Stack -->
+<div class="flex flex-col gap-4">
+<!-- Achievement 1: ECPC Championship (Top Highlight) -->
+<div class="p-6 md:p-7 rounded-3xl bg-surface-card/90 shadow-xl relative overflow-hidden hover:bg-surface-elevated transition-all flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+<div class="flex items-start gap-5 text-right">
+<div class="w-14 h-14 rounded-2xl bg-achievement-gold/15 flex items-center justify-center text-achievement-gold shrink-0 shadow-[0_0_20px_rgba(245,158,11,0.3)]">
+<span class="material-symbols-outlined text-3xl">emoji_events</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-3 flex-wrap">
+<h3 class="font-headline-sm text-headline-sm text-achievement-gold font-bold">المركز الأول في ECPC على مستوى الجامعة</h3>
+<span class="px-2.5 py-0.5 rounded-full bg-achievement-gold/20 text-achievement-gold font-label-sm text-label-sm font-bold">1st Place in ECPC • University Level</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold mt-1">المسابقة المصرية للبرمجة الجامعية</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 leading-relaxed">
+              فريق أسرة رؤية يقتنص المركز الأول ECPC ويحقق المركز الأول على مستوى الجامعة - تأهل إلى المراحل التصفوية والإقليمية وتتويج كأقوى فريق حاسبات في الصالحية.
+            </p>
+</div>
+</div>
+<div class="shrink-0 self-end md:self-center">
+<span class="px-4 py-2 rounded-xl bg-achievement-gold text-surface-container-lowest font-label-md text-label-md font-bold shadow-[0_0_15px_rgba(245,158,11,0.4)] flex items-center gap-1.5">
+<span class="material-symbols-outlined text-lg">military_tech</span>
+<span>المركز الأول</span>
+</span>
+</div>
+</div>
+<!-- Achievement 2: CognitioX Egypt 2026 -->
+<div class="p-6 rounded-2xl bg-surface-card/75 shadow-md hover:bg-surface-elevated transition-all flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+<div class="flex items-start gap-4 text-right">
+<div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-2xl">neurology</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2.5 flex-wrap">
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">CognitioX Egypt 2026</h4>
+<span class="font-label-sm text-label-sm text-outline font-mono">CognitioX Summit Egypt</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-semibold mt-0.5">مؤتمر الذكاء الاصطناعي والحوسبة المعرفية</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              مشاركة وفد أسرة رؤية في جلسات الذكاء الاصطناعي التوليدي، الحوسبة الفائقة ونظم المعالجة اللغوية الضخمة، والاطلاع على أحدث التطبيقات العملية المبتكرة.
+            </p>
+</div>
+</div>
+<span class="px-3.5 py-1.5 rounded-lg bg-surface-container-high text-xs font-mono font-medium text-on-surface-variant shrink-0">تم الحضور والتمثيل</span>
+</div>
+<!-- Achievement 3: n8n in Egypt -->
+<div class="p-6 rounded-2xl bg-surface-card/75 shadow-md hover:bg-surface-elevated transition-all flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+<div class="flex items-start gap-4 text-right">
+<div class="w-12 h-12 rounded-xl bg-tertiary/10 flex items-center justify-center text-tertiary shrink-0">
+<span class="material-symbols-outlined text-2xl">alt_route</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2.5 flex-wrap">
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">n8n in Egypt</h4>
+<span class="font-label-sm text-label-sm text-outline font-mono">Automation &amp; AI Workflows</span>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary font-semibold mt-0.5">فعالية متخصصة بالأتمتة والذكاء الاصطناعي</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              تعرّف الطلاب على أدوات الأتمتة المتقدمة No-Code/Low-Code ونظم ربط الـ APIs مع الـ LLMs، وتطبيق مشاريع واقعية تخدم بيئات العمل والشركات الناشئة.
+            </p>
+</div>
+</div>
+<span class="px-3.5 py-1.5 rounded-lg bg-surface-container-high text-xs font-mono font-medium text-on-surface-variant shrink-0">تم الحضور</span>
+</div>
+<!-- Achievement 4: AI Hackathons -->
+<div class="p-6 rounded-2xl bg-surface-card/75 shadow-md hover:bg-surface-elevated transition-all flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+<div class="flex items-start gap-4 text-right">
+<div class="w-12 h-12 rounded-xl bg-secondary/15 flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-2xl">code_blocks</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2.5 flex-wrap">
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">AI Hackathons</h4>
+<span class="font-label-sm text-label-sm text-outline font-mono">National AI Hackathons</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold mt-0.5">مسابقات الهاكاثون وحل المشكلات بالذكاء الاصطناعي</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              خوض غمار المنافسات البرمجية والحلول الابتكارية، وتطوير نماذج ذكية تعالج مشاكل الرعاية الصحية والتكنولوجيا المالية خلال 48 ساعة متواصلة.
+            </p>
+</div>
+</div>
+<span class="px-3.5 py-1.5 rounded-lg bg-surface-container-high text-xs font-mono font-medium text-on-surface-variant shrink-0">مشاركة فاعلة</span>
+</div>
+<!-- Achievement 5: Build with AI: MASR Edition (Google Developers) -->
+<div class="p-6 rounded-2xl bg-surface-card/75 shadow-md hover:bg-surface-elevated transition-all flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+<div class="flex items-start gap-4 text-right">
+<div class="w-12 h-12 rounded-xl bg-primary/10 flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined text-2xl">hub</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2.5 flex-wrap">
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">Build with AI: MASR Edition</h4>
+<span class="font-label-sm text-label-sm text-outline font-mono">Google for Developers</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-semibold mt-0.5">مبادرة جوجل لبناء حلول الذكاء الاصطناعي</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              برنامج تدريبي تطبيقي على Google Cloud وGemini API وVertex AI، وتدريب أعضاء أسرة رؤية على أحدث تقنيات نشر النماذج السحابية عالمياً.
+            </p>
+</div>
+</div>
+<span class="px-3.5 py-1.5 rounded-lg bg-surface-container-high text-xs font-mono font-medium text-on-surface-variant shrink-0">تم الحضور</span>
+</div>
+<!-- Achievement 6: NTI Job Fair -->
+<div class="p-6 rounded-2xl bg-surface-card/75 shadow-md hover:bg-surface-elevated transition-all flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+<div class="flex items-start gap-4 text-right">
+<div class="w-12 h-12 rounded-xl bg-tertiary/10 flex items-center justify-center text-tertiary shrink-0">
+<span class="material-symbols-outlined text-2xl">badge</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2.5 flex-wrap">
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">NTI Job Fair</h4>
+<span class="font-label-sm text-label-sm text-outline font-mono">National Telecommunication Institute</span>
+</div>
+<span class="font-label-sm text-label-sm text-tertiary font-semibold mt-0.5">ملتقى التوظيف والتدريب لمعهد تكنولوجيا الاتصالات</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              تسهيل وصول أعضاء الأسرة لفرص التدريب الصيفي والمنح الاحترافية المعتمدة في مجالات الشبكات، السحابة والأمن السيبراني.
+            </p>
+</div>
+</div>
+<span class="px-3.5 py-1.5 rounded-lg bg-surface-container-high text-xs font-mono font-medium text-on-surface-variant shrink-0">فرص تدريب</span>
+</div>
+<!-- Achievement 7: AI Catalyst | V.04 -->
+<div class="p-6 rounded-2xl bg-surface-card/75 shadow-md hover:bg-surface-elevated transition-all flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+<div class="flex items-start gap-4 text-right">
+<div class="w-12 h-12 rounded-xl bg-secondary/15 flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined text-2xl">psychology</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-2.5 flex-wrap">
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">AI Catalyst | V.04</h4>
+<span class="font-label-sm text-label-sm text-outline font-mono">Orange Digital Center &amp; Partners</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold mt-0.5">مبادرة تسريع وتطوير مهارات الذكاء الاصطناعي</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+              إشراك متميز لأعضاء أسرة رؤية في ورش متخصصة برعاية كبرى الشركات التكنولوجية لتطوير حلول واقعية ومشاريع تخرج رائدة.
+            </p>
+</div>
+</div>
+<span class="px-3.5 py-1.5 rounded-lg bg-surface-container-high text-xs font-mono font-medium text-on-surface-variant shrink-0">مشاركة متميزة</span>
+</div>
+</div>
+</section>
+<!-- ==================== WHATSAPP COMMUNITY SECTION ==================== -->
+<section class="w-full max-w-7xl mx-auto px-margin-mobile md:px-margin py-16 mb-8" id="whatsapp-section">
+<div class="rounded-3xl bg-gradient-to-br from-surface-container via-surface-card to-surface-container-low p-8 md:p-14 shadow-2xl relative overflow-hidden">
+<!-- Cyan / Teal Radial flare -->
+<div class="absolute -bottom-24 -right-24 w-96 h-96 bg-primary/10 rounded-full blur-[100px] pointer-events-none"></div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+<!-- Left: Instruction & Community Info -->
+<div class="lg:col-span-7 flex flex-col items-start text-right">
+<div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-tertiary/15 text-tertiary font-label-sm text-label-sm font-bold mb-4">
+<span class="material-symbols-outlined text-base">forum</span>
+<span>انضم لينا • JOIN THE COMMUNITY</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-bold text-on-surface mb-3">
+            جروبات الأسرة على واتساب
+          </h2>
+<span class="font-label-md text-label-md text-primary font-mono mb-4 block">
+            Osra Roya Official WhatsApp Community
+          </span>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed mb-6">
+            اختار الرابط الرسمي، اضغط الزر أو امسح الـ QR Code لتدخل المجتمع مباشرة. مجتمعنا موحد لكل أنشطة الأسرة، الكورسات التدريبية، الفرق البرمجية والإعلانات الفورية لكل جديد في الكلية.
+          </p>
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-4 w-full sm:w-auto">
+<a class="inline-flex items-center justify-center gap-2.5 px-8 py-4 rounded-xl bg-tertiary-container text-on-tertiary-container font-label-lg text-label-lg font-bold shadow-[0_0_25px_rgba(27,189,133,0.4)] hover:shadow-[0_0_35px_rgba(27,189,133,0.65)] hover:-translate-y-0.5 transition-all" href="https://chat.whatsapp.com/H4L5agmgZRT2ZTAWPTuGEi" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-2xl">chat</span>
+<span>انضم لمجتمع واتساب الآن</span>
+</a>
+<button class="inline-flex items-center justify-center gap-2 px-5 py-4 rounded-xl bg-surface-container-high hover:bg-surface-bright text-on-surface font-label-md text-label-md transition-colors shadow-sm" onclick="navigator.clipboard.writeText('https://chat.whatsapp.com/H4L5agmgZRT2ZTAWPTuGEi'); alert('تم نسخ رابط المجتمع الرسمي بنجاح!');">
+<span class="material-symbols-outlined text-xl">content_copy</span>
+<span>نسخ الرابط الرسمي</span>
+</button>
+</div>
+</div>
+<!-- Right: Official Interactive QR Code Showcase (Reproducing the specific reference UI) -->
+<div class="lg:col-span-5 flex flex-col items-center justify-center">
+<div class="w-full max-w-sm p-6 sm:p-8 rounded-3xl bg-surface-container-lowest/90 backdrop-blur-2xl shadow-2xl flex flex-col items-center text-center relative group">
+<!-- High Tech QR Container -->
+<div class="p-4 rounded-2xl bg-white mb-5 shadow-[0_0_30px_rgba(255,255,255,0.15)] group-hover:scale-105 transition-transform duration-300">
+<!-- Crisp SVG Vector QR Code targeting the WhatsApp URL -->
+<svg class="w-48 h-48 sm:w-52 sm:h-52" fill="none" viewbox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<!-- Outer Corner 1 -->
+<rect fill="#0B0F19" height="26" rx="4" width="26" x="10" y="10"></rect>
+<rect fill="white" height="16" width="16" x="15" y="15"></rect>
+<rect fill="#0B0F19" height="10" width="10" x="18" y="18"></rect>
+<!-- Outer Corner 2 -->
+<rect fill="#0B0F19" height="26" rx="4" width="26" x="64" y="10"></rect>
+<rect fill="white" height="16" width="16" x="69" y="15"></rect>
+<rect fill="#0B0F19" height="10" width="10" x="72" y="18"></rect>
+<!-- Outer Corner 3 -->
+<rect fill="#0B0F19" height="26" rx="4" width="26" x="10" y="64"></rect>
+<rect fill="white" height="16" width="16" x="15" y="69"></rect>
+<rect fill="#0B0F19" height="10" width="10" x="18" y="72"></rect>
+<!-- Grid Patterns representing WhatsApp community link -->
+<rect fill="#0B0F19" height="6" width="6" x="42" y="12"></rect>
+<rect fill="#0B0F19" height="12" width="6" x="52" y="12"></rect>
+<rect fill="#0B0F19" height="6" width="12" x="42" y="24"></rect>
+<rect fill="#0B0F19" height="12" width="6" x="12" y="44"></rect>
+<rect fill="#0B0F19" height="6" width="12" x="24" y="44"></rect>
+<rect fill="#0B0F19" height="6" width="6" x="24" y="54"></rect>
+<rect fill="#06B6D4" height="12" rx="2" width="12" x="44" y="44"></rect>
+<rect fill="#0B0F19" height="6" width="6" x="64" y="44"></rect>
+<rect fill="#0B0F19" height="6" width="12" x="76" y="44"></rect>
+<rect fill="#0B0F19" height="6" width="12" x="64" y="54"></rect>
+<rect fill="#0B0F19" height="12" width="6" x="82" y="54"></rect>
+<rect fill="#0B0F19" height="16" width="6" x="44" y="64"></rect>
+<rect fill="#0B0F19" height="6" width="14" x="54" y="64"></rect>
+<rect fill="#0B0F19" height="12" width="6" x="54" y="76"></rect>
+<rect fill="#0B0F19" height="6" width="14" x="74" y="74"></rect>
+<rect fill="#0B0F19" height="6" width="6" x="68" y="84"></rect>
+<rect fill="#0B0F19" height="6" width="8" x="82" y="84"></rect>
+</svg>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">مجتمع أسرة رؤية</h4>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-1 mb-4">
+              رابط الانضمام الرسمي، موحد لكل نشاطات الأسرة ومجتمعاتها.
+            </span>
+<a class="w-full py-2.5 px-4 rounded-xl bg-tertiary-container hover:bg-tertiary text-on-tertiary-container font-label-md text-label-md font-bold transition-all flex items-center justify-center gap-2" href="https://chat.whatsapp.com/H4L5agmgZRT2ZTAWPTuGEi" rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-lg">open_in_new</span>
+<span>انضم لينا مباشرة</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div></main><footer class="w-full bg-surface-container-lowest mt-space-xl"><div class="max-w-7xl mx-auto px-margin-mobile md:px-margin py-16"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-space-xl mb-16"><div class="lg:col-span-4 flex flex-col gap-4"><div class="flex items-center gap-3"><div class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center"><span class="material-symbols-outlined text-primary text-xl">terminal</span></div><div><span class="font-headline-sm text-headline-sm text-on-surface font-bold">أسرة رؤية</span><span class="block font-label-sm text-label-sm text-primary uppercase font-mono">Osra Roya Student Activity</span></div></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed text-justify">النشاط الطلابي الرائد بكلية الحاسبات والمعلومات بجامعة الصالحية الجديدة. نبني مجتمعاً برمجياً وتقنياً يلهم الابتكار، ويثري مهارات الطلاب الأكاديمية والمهنية عبر ورش العمل والمسابقات والفعاليات العالمية.</p><div class="flex items-center gap-3 pt-2"><div class="px-3 py-1 rounded-full bg-surface-container text-tertiary font-label-sm text-label-sm flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">verified</span><span>معتمدة رسمياً</span></div><div class="px-3 py-1 rounded-full bg-surface-container text-achievement-gold font-label-sm text-label-sm flex items-center gap-1.5"><span class="material-symbols-outlined text-sm">military_tech</span><span>نخبة الأنشطة</span></div></div></div><div class="lg:col-span-3 flex flex-col gap-3"><span class="font-headline-sm text-headline-sm text-on-surface font-bold mb-1">أقسام الموقع</span><nav class="flex flex-col gap-2.5" data-active-classes="text-primary font-semibold"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="about-us" href="#">من نحن والرؤية</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="members" href="#">الهيكل الإداري واللجان التقنية</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="achievements" href="#">سجل البطولات والمنافسات</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="gallery" href="#">ألبوم الذكريات والفعاليات</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="community" href="#">مجموعات واتساب التخصصية</a></nav></div><div class="lg:col-span-2 flex flex-col gap-3"><span class="font-headline-sm text-headline-sm text-on-surface font-bold mb-1">روابط رسمية</span><ul class="flex flex-col gap-2.5"><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">جامعة الصالحية الجديدة</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">كلية الحاسبات والمعلومات</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">رعاية الشباب والأنشطة</li><li class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface cursor-pointer transition-colors">بوابة الطلاب الرقمية</li></ul></div><div class="lg:col-span-3 flex flex-col gap-4"><span class="font-headline-sm text-headline-sm text-on-surface font-bold">تواصل مع الأسرة</span><p class="font-body-sm text-body-sm text-on-surface-variant">انضم إلى قنواتنا الرسمية للبقاء على اطلاع بآخر المعسكرات التدريبية والهاكاثونات القادمة.</p><div class="flex items-center gap-2 pt-1"><a class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-high hover:shadow-[0_0_15px_rgba(6,182,212,0.3)] transition-all" href="#" title="مجتمع الديسكورد"><span class="material-symbols-outlined text-[20px]">hub</span></a><a class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-high hover:shadow-[0_0_15px_rgba(6,182,212,0.3)] transition-all" href="#" title="مجموعات الواتساب"><span class="material-symbols-outlined text-[20px]">chat</span></a><a class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-high hover:shadow-[0_0_15px_rgba(6,182,212,0.3)] transition-all" href="#" title="مستودعات الأكواد"><span class="material-symbols-outlined text-[20px]">code</span></a><a class="w-10 h-10 rounded-xl bg-surface-container flex items-center justify-center text-on-surface-variant hover:text-primary hover:bg-surface-container-high hover:shadow-[0_0_15px_rgba(6,182,212,0.3)] transition-all" href="#" title="البريد الأكاديمي"><span class="material-symbols-outlined text-[20px]">mail</span></a></div></div></div><div class="pt-8 flex flex-col md:flex-row items-center justify-between gap-4"><p class="font-body-sm text-body-sm text-outline text-center md:text-right">© 2025 أسرة رؤية - كلية الحاسبات والمعلومات • جامعة الصالحية الجديدة. جميع الحقوق محفوظة.</p><div class="flex items-center gap-4 text-xs font-mono text-outline"><span class="flex items-center gap-1.5"><span class="w-2 h-2 rounded-full bg-tertiary animate-pulse"></span>الخوادم تعمل بكفاءة 100%</span><span class="text-surface-container-highest">•</span><span>FCI - SGU TECH CORE</span></div></div></div></footer></body></html>

@@ -1,0 +1,6 @@
+{
+  "name": "أسرة رؤية | Osra Roya Tech Community",
+  "description": "المجتمع التقني والبرمجي الرائد بكلية الحاسبات والمعلومات بجامعة الصالحية الجديدة - مسابقات ECPC، ورش الذكاء الاصطناعي، واستمارة التسجيل في الفعاليات والأنشطة التقنية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
